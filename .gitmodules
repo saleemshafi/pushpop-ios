@@ -1,0 +1,3 @@
+[submodule "www/src"]
+	path = www/src
+	url = git://github.com/saleemshafi/pushpop.git
