@@ -1,7 +1,9 @@
 $(window).load(function() { 
    document.addEventListener("deviceready", onDeviceReady, false);
-   document.addEventListener("touchmove", function(e) { 
-											 e.preventDefault(); 
+   document.getElementById("puzzle").addEventListener("touchmove", function(e) { 
+                                                      if (e.currentTarget.className != "help-text") {
+                                                        e.preventDefault(); 
+                                                      }
 											 }, false);
 });
 
