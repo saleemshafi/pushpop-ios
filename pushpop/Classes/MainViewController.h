@@ -19,9 +19,9 @@
 
 //
 //  MainViewController.h
-//  pushpop-ios
+//  pushpop
 //
-//  Created by Shafi, Mohammed(mshafi) on 5/20/12.
+//  Created by Asha D Patel on 5/29/12.
 //  Copyright __MyCompanyName__ 2012. All rights reserved.
 //
 

@@ -16,11 +16,35 @@
  specific language governing permissions and limitations
  under the License.
  */
+
 //
-// Prefix header for all source files of the 'pushpop-ios' target in the 'pushpop-ios' project
+//  AppDelegate.h
+//  pushpop
+//
+//  Created by Asha D Patel on 5/29/12.
+//  Copyright __MyCompanyName__ 2012. All rights reserved.
 //
 
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-    #import <UIKit/UIKit.h>
+#import <UIKit/UIKit.h>
+
+#ifdef CORDOVA_FRAMEWORK
+    #import <Cordova/CDVViewController.h>
+#else
+    #import "CDVViewController.h"
 #endif
+
+
+@interface AppDelegate : NSObject < UIApplicationDelegate > {
+
+}
+
+// invoke string is passed to your app on launch, this is only valid if you 
+// edit pushpop-Info.plist to add a protocol
+// a simple tutorial can be found here : 
+// http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
+
+@property (nonatomic, retain) IBOutlet UIWindow* window;
+@property (nonatomic, retain) IBOutlet CDVViewController* viewController;
+
+@end
+

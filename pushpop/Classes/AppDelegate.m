@@ -19,9 +19,9 @@
 
 //
 //  AppDelegate.m
-//  pushpop-ios
+//  pushpop
 //
-//  Created by Shafi, Mohammed(mshafi) on 5/20/12.
+//  Created by Asha D Patel on 5/29/12.
 //  Copyright __MyCompanyName__ 2012. All rights reserved.
 //
 
@@ -66,7 +66,7 @@
     
     if (url && [url isKindOfClass:[NSURL class]]) {
         invokeString = [url absoluteString];
-		NSLog(@"pushpop-ios launchOptions = %@", url);
+		NSLog(@"pushpop launchOptions = %@", url);
     }    
     
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
@@ -115,7 +115,7 @@
 }
 
 // this happens while we are running ( in the background, or from within our own app )
-// only valid if pushpop-ios-Info.plist specifies a protocol to handle
+// only valid if pushpop-Info.plist specifies a protocol to handle
 - (BOOL) application:(UIApplication*)application handleOpenURL:(NSURL*)url 
 {
     if (!url) { 
