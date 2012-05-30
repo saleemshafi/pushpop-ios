@@ -15,7 +15,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8DE6223E1575952C0020E97F"
                BuildableName = "pushpop.app"
-               BlueprintName = "pushpop"
+               BlueprintName = "PushPop"
                ReferencedContainer = "container:pushpop.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,7 +33,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DE6223E1575952C0020E97F"
             BuildableName = "pushpop.app"
-            BlueprintName = "pushpop"
+            BlueprintName = "PushPop"
             ReferencedContainer = "container:pushpop.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -52,7 +52,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DE6223E1575952C0020E97F"
             BuildableName = "pushpop.app"
-            BlueprintName = "pushpop"
+            BlueprintName = "PushPop"
             ReferencedContainer = "container:pushpop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -70,7 +70,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8DE6223E1575952C0020E97F"
             BuildableName = "pushpop.app"
-            BlueprintName = "pushpop"
+            BlueprintName = "PushPop"
             ReferencedContainer = "container:pushpop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
