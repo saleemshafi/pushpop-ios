@@ -43,7 +43,6 @@
 		8DE622A1157598630020E97F /* SAiOSAdPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE622A0157598630020E97F /* SAiOSAdPlugin.m */; };
 		8DE622AA1575AD670020E97F /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE622A91575AD670020E97F /* Default-Portrait~ipad.png */; };
 		8DE622AC1575AD760020E97F /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE622AB1575AD760020E97F /* Default-Landscape~ipad.png */; };
-		8DE622AE1575AD930020E97F /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE622AD1575AD930020E97F /* icon-72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,7 +89,6 @@
 		8DE622A0157598630020E97F /* SAiOSAdPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SAiOSAdPlugin.m; path = Plugins/SAiOSAdPlugin.m; sourceTree = "<group>"; };
 		8DE622A91575AD670020E97F /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		8DE622AB1575AD760020E97F /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		8DE622AD1575AD930020E97F /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +127,6 @@
 		8DE622311575952C0020E97F = {
 			isa = PBXGroup;
 			children = (
-				8DE622AD1575AD930020E97F /* icon-72.png */,
 				8DE622AB1575AD760020E97F /* Default-Landscape~ipad.png */,
 				8DE622A91575AD670020E97F /* Default-Portrait~ipad.png */,
 				8DE6229D157596910020E97F /* www */,
@@ -353,7 +350,6 @@
 				8DE6229E157596910020E97F /* www in Resources */,
 				8DE622AA1575AD670020E97F /* Default-Portrait~ipad.png in Resources */,
 				8DE622AC1575AD760020E97F /* Default-Landscape~ipad.png in Resources */,
-				8DE622AE1575AD930020E97F /* icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
