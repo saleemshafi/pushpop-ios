@@ -107,8 +107,7 @@ function iAdBannerViewDidLoadAdEventHandler(evt)
  window.plugins.AudioPlugin = new AudioPlugin();
  }
  }
- 
- console.log("just checking");
+
 /**
  * Add to Cordova constructor
  */
