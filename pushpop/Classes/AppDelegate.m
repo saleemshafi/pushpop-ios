@@ -81,6 +81,7 @@
     self.viewController.startPage = @"src/index.html";
     self.viewController.invokeString = invokeString;
     self.viewController.view.frame = viewBounds;
+    self.viewController.webView.dataDetectorTypes = UIDataDetectorTypeNone;
     
     // check whether the current orientation is supported: if it is, keep it, rather than forcing a rotation
     BOOL forceStartupRotation = YES;
