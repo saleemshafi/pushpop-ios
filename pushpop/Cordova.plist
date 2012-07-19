@@ -26,6 +26,8 @@
 	</array>
 	<key>Plugins</key>
 	<dict>
+		<key>AudioPlugin</key>
+		<string>AudioPlugin</string>
 		<key>SAiOSAdPlugin</key>
 		<string>SAiOSAdPlugin</string>
 		<key>Compass</key>
