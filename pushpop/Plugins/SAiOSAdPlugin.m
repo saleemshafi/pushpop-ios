@@ -55,6 +55,11 @@
             }
             
             webViewFrame.size.height = self.isLandscape? (superViewFrame.size.width - adViewFrame.size.height) : (superViewFrame.size.height - adViewFrame.size.height);
+            
+//            int webViewWidth = isPortraitOrLandscape ? 768:1024; // the dynamic width of the webView
+            NSString *javascript = [NSString stringWithFormat:@"$('.ui-page-active').css('min-height','%1.0fpx')", webViewFrame.size.height];
+            [[super webView] stringByEvaluatingJavaScriptFromString:javascript];            
+            
 		} 
         else 
         {
