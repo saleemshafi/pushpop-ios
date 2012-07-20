@@ -15,7 +15,7 @@
     NSString *sound = [arguments pop];
     
     CFBundleRef mainBundle = CFBundleGetMainBundle();
-    CFURLRef soundFileUrlRef = CFBundleCopyResourceURL(mainBundle, sound, CFSTR("mp3"), NULL);
+    CFURLRef soundFileUrlRef = CFBundleCopyResourceURL(mainBundle, (CFStringRef)sound, CFSTR("mp3"), NULL);
     UInt32 soundId;
     AudioServicesCreateSystemSoundID(soundFileUrlRef, &soundId);
     AudioServicesPlaySystemSound(soundId);
