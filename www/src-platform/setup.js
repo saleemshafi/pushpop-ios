@@ -18,7 +18,7 @@ $(window).load(function() {
  for more details -jm */
 function onDeviceReady()
 {
-	if (window.plugins && window.plugins.iAdPlugin) {
+	if (window.plugins && window.plugins.iAdPlugin && !window.pushPopUi.premium) {
 		// listen for orientation changes
 		window.addEventListener("orientationchange", onOrientationChange, false);
 		// listen for the "iAdBannerViewDidLoadAdEvent" that is sent by the iAdPlugin
