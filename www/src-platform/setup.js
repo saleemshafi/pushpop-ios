@@ -1,5 +1,5 @@
 window.pushPopUi.downloadPremium = function() {
-    window.open("http://itunes.apple.com/us/app/ocarina/id293053479?mt=8");
+    window.open("http://itunes.apple.com/app/pushpop/id531782897?mt=8&uo=4");
 }
 
 $(window).load(function() { 
